@@ -1,0 +1,22 @@
+.menu-label,.menu-list li a{
+  color:white !important;
+}
+.menu-list li a:hover:not(.is-active){
+  color:black !important;
+}
+nav.breadcrumb .fas{
+  color:white !important;
+}
+nav a{
+  color:white !important;
+}
+.selector{
+  background-image: url("./img/bg.png");
+  background-repeat: no-repeat;
+  width:100%;
+  height:900px;
+  background-position: center;
+}
+#selector-bg{
+  background-color:white !important;
+}
