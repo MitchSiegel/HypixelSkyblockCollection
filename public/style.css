@@ -14,26 +14,28 @@ nav a{
   margin-top:100px;
   margin-left:10%;
   margin-right:10%;
-  width:calc(100% - 20%);
-  height:500px;
+
   background-color:hsla(0, 0%, 100%, 30%);
   border-radius: 10px; 
 }
 .item-picture{
-  width:40%;
-  height:100%;
   opacity: 100;
 
 }
 .outline{
   border: 1px solid green !important;
 }
+.outline-red{
+  border: 1px solid red !important;
+}
 .item-picture img{
+  padding:20px;
   margin-top:25%;
-  border-radius: 25%;
   margin-left:25%;
   background-color:hsla(0, 0%, 100%, 40%);
-  padding:20px;
+}
+.item{
+  
 }
 .selector{
   background-image: url("./img/bg.png");
