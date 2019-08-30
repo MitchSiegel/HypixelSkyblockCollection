@@ -2,12 +2,17 @@ const express = require("express");
 const fs = require("fs");
 const app = express();
 const port = 3000;
+app.set('view engine', 'ejs');
+
 
 app.get("/", function(req, res) {
   render("index", res);
 });
 app.get("/item", function(req, res) {
   render("item", res);
+});
+app.get('/foo', (req, res) => {
+  res.render('item-template', {foo: 'FOO'});
 });
 app.use(express.static('public'))
 

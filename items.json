@@ -1,11 +1,12 @@
 {
   "farming":{
-    "wheat":{
+    "Wheat":{
       "levels":9,
       "image":"https://gamepedia.cursecdn.com/minecraft_gamepedia/e/e2/Wheat.png",
       "1":{
         "unlocks":"Wheat Minion",
-        "image":"none",
+        "image":"/img/wheat_minion.png",
+        "rarity":"common",
         "required":"50"
       },
       "2":{

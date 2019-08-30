@@ -4,6 +4,7 @@
 .menu-list li a:hover:not(.is-active){
   color:black !important;
 }
+/* nav bar */
 nav.breadcrumb .fas{
   color:white !important;
 }
@@ -11,16 +12,21 @@ nav a{
   color:white !important;
 }
 .item-wrapper{
-  margin-top:100px;
+  margin-top:5%;
   margin-left:10%;
   margin-right:10%;
-
   background-color:hsla(0, 0%, 100%, 30%);
   border-radius: 10px; 
 }
+.border-right{
+   border:0px solid transparent;
+   border-right:1px solid white;
+}
 .item-picture{
   opacity: 100;
-
+}
+.is-centered{
+  text-align: center;
 }
 .outline{
   border: 1px solid green !important;
@@ -29,14 +35,24 @@ nav a{
   border: 1px solid red !important;
 }
 .item-picture img{
+  margin-top:15%;
   padding:20px;
-  margin-top:25%;
-  margin-left:25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius:20px;
   background-color:hsla(0, 0%, 100%, 40%);
 }
-.item{
-  
+.item-picture-minion{
+  border-radius:20px;
+  width:80%;
+  padding:20px;
+  background-color:hsla(0, 0%, 100%, 40%);
 }
+h1{
+  color:white;
+}
+
 .selector{
   background-image: url("./img/bg.png");
   background-repeat: no-repeat;
@@ -54,3 +70,58 @@ nav a{
 #selector-bg{
   background-color:white !important;
 }
+/* Crafting Table */
+#crafting-table {
+  margin-top: 10px;
+}
+
+
+#grid {
+  float: left;
+  margin-bottom:16px;
+}
+
+.arrow {
+   float: left;
+  padding: 20px;
+  vertical-align:top;
+  font-size: 64px;
+}
+
+.gridCell {
+  background-color: #8b8b8b;
+  border-top: thick double #373737;
+  border-left: thick double #373737;
+  border-right: double #FFFFFF;
+  border-bottom: double #FFFFFF;
+  width: 36px;
+  height: 36px;
+  float: left;
+}
+.item-number{
+  float:left;position: relative;top:-25px;left:15px;color:white;
+}
+#grid .gridCell:nth-child(3n+1){
+  clear:left;
+}
+/* Crafting table end */
+/* rareity / abilities label */
+.label:not(.second){
+  margin-top:108px;
+}
+.label.second{
+  margin-top:20px;
+}
+.uncommon{
+  color:#55FF55;
+}
+.common{
+  color:white;
+}
+.rare{
+  color:#5555FF;
+}
+.leg{
+  color:#FFAA00;
+}
+/* End rareity label */
