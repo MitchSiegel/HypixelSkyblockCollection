@@ -1,0 +1,25 @@
+{
+  "name": "hypxielskyblockitems",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "jsonfile": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitchdagamer/hypxielskyblockitems.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mitchdagamer/hypxielskyblockitems/issues"
+  },
+  "homepage": "https://github.com/mitchdagamer/hypxielskyblockitems#readme"
+}
