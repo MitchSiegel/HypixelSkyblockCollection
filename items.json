@@ -1,7 +1,9 @@
 {
   "farming":{
-    "Wheat":{
-      "levels":9,
+    "wheat":{
+      "title":"Wheat",
+      "type":"Farming",
+      "tiers":9,
       "image":"https://gamepedia.cursecdn.com/minecraft_gamepedia/e/e2/Wheat.png",
       "1":{
         "unlocks":"Wheat Minion",
@@ -10,7 +12,28 @@
         "required":"50"
       },
       "2":{
-
+        "unlocks":"Harvesting V",
+        "image":"/img/ebook.png",
+        "rarity":"common",
+        "required":"100"
+      }
+    },
+    "carrot":{
+      "title":"Carrot",
+      "type":"Farming",
+      "tiers":9,
+      "image":"https://vignette.wikia.nocookie.net/minecraft/images/6/63/Carrot_Updated.png/revision/latest?cb=20190721134506",
+      "1":{
+        "unlocks":"Carrot Minion",
+        "image":"http://via.placeholder.com/338x515?text=Coming+Soon",
+        "rarity":"common",
+        "required":"50"
+      },
+      "2":{
+        "unlocks":"Carrot Minion",
+        "image":"http://via.placeholder.com/338x515?text=Coming+Soon",
+        "rarity":"common",
+        "required":"50"
       }
     }
   }
