@@ -16,6 +16,27 @@
         "image":"/img/ebook.png",
         "rarity":"common",
         "required":"100"
+      },
+      "3":{
+        "unlocks":"Farm Suit",
+        "image":"/img/ebook.png",
+        "rarity":"common",
+        "abilty":"Full Suit Bonus: Speed at The Farm",
+        "required":"250"
+      },
+      "4":{
+        "unlocks":"Farming Talisman",
+        "image":"/img/hb.png",
+        "rarity":"common",
+        "abilty":"Full Suit Bonus: Speed at The Farm",
+        "required":"500"
+      },
+      "5":{
+        "unlocks":"Enchanted Bread",
+        "image":"/img/enchanted_bread.png",
+        "rarity":"common",
+        "abilty":"Full Suit Bonus: Speed at The Farm",
+        "required":"500"
       }
     },
     "carrot":{
