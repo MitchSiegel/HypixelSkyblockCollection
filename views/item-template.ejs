@@ -182,6 +182,7 @@
                            <h1 class="is-size-4"><%= unlockName %></h1>
                            <h1 class="is-size-6">Produces Wheat. Works offline</h1>
                            <br>
+                           <!-- hidden for now
                            <div class="crafting-wrapper">
                               <div id="grid">
                                   <div class='gridCell' id="craftTable-0">
@@ -199,6 +200,7 @@
                                   <div class='gridCell' id="craftTable-8"></div>
                                </div>
                               </div><br>
+                           -->
                               <p class="label">Rarity: <span class="common">Common</span></p>
                               <p class="label second">Abilites: <span class="common">none</span></p>
                               <p class="label second">Needs <B>50</B> Wheat to unlock</p>
@@ -224,6 +226,11 @@
          for(i in steps){
             steps[i].setAttribute("href", Number(Number(i) + 1))
          }
+         /* Load crafting table : disabled for now 
+         var cf = `[<%= %>]`;
+         var matX = "<%=  %>";
+         var matY = "<%=  %>";
+         */
       </script>
    </body>
 </html>

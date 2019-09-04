@@ -9,7 +9,12 @@
         "unlocks":"Wheat Minion",
         "image":"/img/wheat_minion.png",
         "rarity":"common",
-        "required":"50"
+        "required":"50",
+        "matrix":["x","y","x", "x", "y", "x", "x","x","x"],
+        "mat":{
+          "x":"wheat:64",
+          "y":"air:0"
+        }
       },
       "2":{
         "unlocks":"Harvesting V",

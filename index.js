@@ -2,7 +2,7 @@ const express = require("express");
 const fs = require("fs");
 const jf = require("jsonfile")
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 app.set('view engine', 'ejs');
 
 
@@ -26,9 +26,14 @@ app.get('/items/:type/:item/:tier', (req, res) => {
     var unlockURL = tierObj.image;
     var title = itemObj.title;
     var itemUrl = itemObj.image;
+    /*
+    var cf = tierObj.matrix;
+    console.log(cf)
+    var mat = tierObj.mat;
+    */
     var unlockName = tierObj.unlocks;
     var type = itemObj.type;
-    res.render('item-template', {itemName: title, type: type, tNumber: number, itemUrl : itemUrl, unlockURL: unlockURL, baseURL : baseURL, unlockName: unlockName});
+    res.render('item-template', {itemName: title, type: type, tNumber: number, itemUrl : itemUrl, unlockURL: unlockURL, baseURL : baseURL, unlockName: unlockName /*, cf: cf, mat: mat */});
     }
   })
 
