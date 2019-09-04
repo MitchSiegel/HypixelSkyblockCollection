@@ -16,7 +16,7 @@ app.get('/items/:type/:item/:tier', (req, res) => {
   jf.readFile("items.json",function (err, obj) {
     if (err) console.error(err)
     if(!obj[req.params.type][req.params.item][req.params.tier]){
-      res.end("Sorry this isn't supported yet!")
+      res.redirect(`/`)
     }else{
     var number = req.params.tier;
     var obj = obj[req.params.type];
@@ -24,6 +24,9 @@ app.get('/items/:type/:item/:tier', (req, res) => {
     var tierObj = itemObj[number];
     var baseURL = `/items/${req.params.type}/${req.params.item}`
     var unlockURL = tierObj.image;
+    var rare = tierObj.rarity;
+
+    var icon = itemObj.icon;
     var title = itemObj.title;
     var itemUrl = itemObj.image;
     /*
@@ -33,7 +36,7 @@ app.get('/items/:type/:item/:tier', (req, res) => {
     */
     var unlockName = tierObj.unlocks;
     var type = itemObj.type;
-    res.render('item-template', {itemName: title, type: type, tNumber: number, itemUrl : itemUrl, unlockURL: unlockURL, baseURL : baseURL, unlockName: unlockName /*, cf: cf, mat: mat */});
+    res.render('item-template', {itemName: title, type: type, tNumber: number, itemUrl : itemUrl, unlockURL: unlockURL, baseURL : baseURL, unlockName: unlockName, icon: icon, rare: rare/*, cf: cf, mat: mat */});
     }
   })
 

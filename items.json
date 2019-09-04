@@ -3,12 +3,13 @@
     "wheat":{
       "title":"Wheat",
       "type":"Farming",
+      "icon":"fas fa-wheat",
       "tiers":9,
       "image":"https://gamepedia.cursecdn.com/minecraft_gamepedia/e/e2/Wheat.png",
       "1":{
         "unlocks":"Wheat Minion",
         "image":"/img/wheat_minion.png",
-        "rarity":"common",
+        "rarity":"Common",
         "required":"50",
         "matrix":["x","y","x", "x", "y", "x", "x","x","x"],
         "mat":{
@@ -19,27 +20,27 @@
       "2":{
         "unlocks":"Harvesting V",
         "image":"/img/ebook.png",
-        "rarity":"common",
+        "rarity":"Common",
         "required":"100"
       },
       "3":{
         "unlocks":"Farm Suit",
         "image":"/img/ebook.png",
-        "rarity":"common",
+        "rarity":"Common",
         "abilty":"Full Suit Bonus: Speed at The Farm",
         "required":"250"
       },
       "4":{
         "unlocks":"Farming Talisman",
         "image":"/img/hb.png",
-        "rarity":"common",
+        "rarity":"Common",
         "abilty":"Full Suit Bonus: Speed at The Farm",
         "required":"500"
       },
       "5":{
         "unlocks":"Enchanted Bread",
         "image":"/img/enchanted_bread.png",
-        "rarity":"common",
+        "rarity":"Common",
         "abilty":"Full Suit Bonus: Speed at The Farm",
         "required":"500"
       }
@@ -47,19 +48,67 @@
     "carrot":{
       "title":"Carrot",
       "type":"Farming",
+      "icon":"fas fa-carrot",
       "tiers":9,
       "image":"https://vignette.wikia.nocookie.net/minecraft/images/6/63/Carrot_Updated.png/revision/latest?cb=20190721134506",
       "1":{
         "unlocks":"Carrot Minion",
         "image":"http://via.placeholder.com/338x515?text=Coming+Soon",
-        "rarity":"common",
+        "rarity":"Common",
         "required":"50"
       },
       "2":{
         "unlocks":"Carrot Minion",
         "image":"http://via.placeholder.com/338x515?text=Coming+Soon",
-        "rarity":"common",
+        "rarity":"Common",
         "required":"50"
+      }
+    }
+  },
+  "mining":{
+    "lapis":{
+      "title":"Lapis",
+      "type":"Mining",
+      "icon":"fas fa-circle",
+      "tiers":9,
+      "image":"https://gamepedia.cursecdn.com/minecraft_gamepedia/9/9f/Lapis_Lazuli.png",
+      "1":{
+        "unlocks":"Lapis Minion",
+        "image":"http://via.placeholder.com/338x515?text=Coming+Soon",
+        "rarity":"Common",
+        "required":"50",
+        "matrix":["x","y","x", "x", "y", "x", "x","x","x"],
+        "mat":{
+          "x":"wheat:64",
+          "y":"air:0"
+        }
+      },
+      "2":{
+        "unlocks":"Harvesting V",
+        "image":"/img/ebook.png",
+        "rarity":"Epic",
+        "required":"100"
+      },
+      "3":{
+        "unlocks":"Farm Suit",
+        "image":"/img/ebook.png",
+        "rarity":"Common",
+        "abilty":"Full Suit Bonus: Speed at The Farm",
+        "required":"250"
+      },
+      "4":{
+        "unlocks":"Farming Talisman",
+        "image":"/img/hb.png",
+        "rarity":"Common",
+        "abilty":"Full Suit Bonus: Speed at The Farm",
+        "required":"500"
+      },
+      "5":{
+        "unlocks":"Enchanted Bread",
+        "image":"/img/enchanted_bread.png",
+        "rarity":"Common",
+        "abilty":"Full Suit Bonus: Speed at The Farm",
+        "required":"500"
       }
     }
   }

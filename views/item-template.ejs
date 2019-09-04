@@ -18,7 +18,7 @@
                   <%= itemName %>
                </h1>
                <h2 class="subtitle">
-                  Farming
+                  <%= type %>
                </h2>
             </div>
          </div>
@@ -27,7 +27,7 @@
       <div class="column is-2" style="padding:30px;background-color:#209CEE;margin-top:10px;">
          <aside class="menu">
             <p class="menu-label">
-               <%= type %>
+               Farming
             </p>
             <ul class="menu-list">
                <li><a id="wheat" href="/items/farming/wheat/1">Wheat</a></li>
@@ -37,7 +37,7 @@
                Mining
             </p>
             <ul class="menu-list">
-               <li><a>Coming soon</a></li>
+               <li><a id="lapis" href="/items/mining/lapis/1">Lapis</a></li>
             </ul>
             <p class="menu-label">
                Combat
@@ -64,21 +64,21 @@
                      <span class="icon is-small">
                      <i class="fas fa-farm" aria-hidden="true"></i>
                      </span>
-                     <span>Farming</span>
+                     <span><%= type %></span>
                      </a>
                   </li>
                   <li>
                      <a href="#">
                      <span class="icon is-small is-active">
-                     <i class="fas fa-wheat" aria-hidden="true"></i>
+                     <i class="<%= icon %>" aria-hidden="true"></i>
                      </span>
-                     <span>Wheat</span>
+                     <span><%= itemName %></span>
                      </a>
                   </li>
                </ul>
             </nav>
          </div>
-         <div class="selector-farm">
+         <div class="selector-<%= type %>">
             <ul class="steps is-medium is-centered has-content-centered" style="padding-top:10px;">
                <li class="steps-segment step-act">
                   <a href="#"  class="has-text-dark step">
@@ -182,7 +182,7 @@
                            <h1 class="is-size-4"><%= unlockName %></h1>
                            <h1 class="is-size-6">Produces Wheat. Works offline</h1>
                            <br>
-                           <!-- hidden for now
+                           <!-- TODO: Update
                            <div class="crafting-wrapper">
                               <div id="grid">
                                   <div class='gridCell' id="craftTable-0">
@@ -201,13 +201,15 @@
                                </div>
                               </div><br>
                            -->
-                              <p class="label">Rarity: <span class="common">Common</span></p>
-                              <p class="label second">Abilites: <span class="common">none</span></p>
-                              <p class="label second">Needs <B>50</B> Wheat to unlock</p>
-
+                           <span class="label">Abilites: <span class="common">none</span></span>
                            </div>
                         </div>
+
                      </div>
+                  </div> 
+                  <div class="labels">
+                     <span class="label">Rarity: <span class="<%= rare %>"><%= rare %></span></span>
+                     <span class="label">Needs <B>50</B> <%= itemName %>(s) to unlock</span>
                   </div>
                </div>
             </div>
