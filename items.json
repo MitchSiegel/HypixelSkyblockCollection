@@ -5,10 +5,11 @@
       "type":"Farming",
       "icon":"fas fa-wheat",
       "tiers":9,
-      "image":"https://gamepedia.cursecdn.com/minecraft_gamepedia/e/e2/Wheat.png",
+      "image":"/img/wheat.png",
       "1":{
         "unlocks":"Wheat Minion",
         "image":"/img/wheat_minion.png",
+        "description":"D",
         "rarity":"Common",
         "required":"50",
         "matrix":["x","y","x", "x", "y", "x", "x","x","x"],
@@ -21,28 +22,36 @@
         "unlocks":"Harvesting V",
         "image":"/img/ebook.png",
         "rarity":"Common",
+        "description":"Grants a 62.5% chance to harvest double crops",
         "required":"100"
       },
       "3":{
         "unlocks":"Farm Suit",
-        "image":"/img/ebook.png",
+        "image":"/img/farmcp.png",
         "rarity":"Common",
-        "abilty":"Full Suit Bonus: Speed at The Farm",
+        "description":"Full Set Bonus: +20% Speed at The Farm, The Barn, and Mushroom Desert.",
         "required":"250"
       },
       "4":{
         "unlocks":"Farming Talisman",
         "image":"/img/hb.png",
         "rarity":"Common",
-        "abilty":"Full Suit Bonus: Speed at The Farm",
+        "description":"+10% Speed at The Farm, The Barn, and Mushroom Desert.",
         "required":"500"
       },
       "5":{
         "unlocks":"Enchanted Bread",
         "image":"/img/enchanted_bread.png",
         "rarity":"Common",
-        "abilty":"Full Suit Bonus: Speed at The Farm",
+        "description":"Full Suit Bonus: Speed at The Farm",
         "required":"500"
+      },
+      "6":{
+        "unlocks":"Farming Island",
+        "image":"/img/enchanted_bread.png",
+        "rarity":"Common",
+        "description":"Place this in your private world to spawn a Farming island!",
+        "required":"2.5k"
       }
     },
     "carrot":{
