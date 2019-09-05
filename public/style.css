@@ -11,6 +11,17 @@ nav.breadcrumb .fas{
 nav a{
   color:white !important;
 }
+/* nav end */
+/* Collection Selectors */
+.item-img img{
+  display:block;
+  border-radius: 20px;
+  padding:20px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:hsla(0, 0%, 100%, 30%);
+}
+/* Collection selectors end */
 .item-wrapper{
   margin-top:5%;
   margin-left:10%;
