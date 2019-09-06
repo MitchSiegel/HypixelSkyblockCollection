@@ -21,6 +21,10 @@ nav a{
   margin-right:auto;
   background-color:hsla(0, 0%, 100%, 30%);
 }
+.item-img img:hover{
+  background-color:hsla(0, 0%, 100%, 300%);
+  cursor: pointer;
+}
 /* Collection selectors end */
 .item-wrapper{
   margin-top:5%;

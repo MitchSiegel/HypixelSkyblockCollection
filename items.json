@@ -9,14 +9,9 @@
       "1":{
         "unlocks":"Wheat Minion",
         "image":"/img/wheat_minion.png",
-        "description":"D",
+        "description":"Generates Wheat while you are online / offline.",
         "rarity":"Common",
-        "required":"50",
-        "matrix":["x","y","x", "x", "y", "x", "x","x","x"],
-        "mat":{
-          "x":"wheat:64",
-          "y":"air:0"
-        }
+        "required":"50"
       },
       "2":{
         "unlocks":"Harvesting V",
@@ -43,7 +38,7 @@
         "unlocks":"Enchanted Bread",
         "image":"/img/enchanted_bread.png",
         "rarity":"Common",
-        "description":"Full Suit Bonus: Speed at The Farm",
+        "description":"Used in Crafting & Can be used as a minoin fuel.",
         "required":"500"
       },
       "6":{
@@ -52,6 +47,13 @@
         "rarity":"Common",
         "description":"Place this in your private world to spawn a Farming island!",
         "required":"2.5k"
+      },
+      "7":{
+        "unlocks":"Enchanted Hay Bale",
+        "image":"http://via.placeholder.com/338x515?text=Coming+Soon",
+        "rarity":"Uncommon",
+        "description":"used in crafting?",
+        "required":"a lot lol"
       }
     },
     "carrot":{
@@ -63,6 +65,7 @@
       "1":{
         "unlocks":"Carrot Minion",
         "image":"http://via.placeholder.com/338x515?text=Coming+Soon",
+        "description":"Generates Carrots while you are online / offline.",
         "rarity":"Common",
         "required":"50"
       },
@@ -71,6 +74,34 @@
         "image":"http://via.placeholder.com/338x515?text=Coming+Soon",
         "rarity":"Common",
         "required":"50"
+      }
+    },
+    "potato":{
+      "title":"Potato",
+      "type":"Farming",
+      "icon":"fas fa-french-fries",
+      "tiers":9,
+      "image":"/img/potato.png",
+      "1":{
+        "unlocks":"Potato Minion",
+        "image":"http://via.placeholder.com/338x515?text=Coming+Soon",
+        "description":"Generates Potatos while you are online / offline.",
+        "rarity":"Common",
+        "required":"50"
+      },
+      "2":{
+        "unlocks":"Portal to Barn",
+        "image":"http://via.placeholder.com/338x515?text=Coming+Soon",
+        "description":"Provides a direct portal to the barn",
+        "rarity":"Common",
+        "required":"100"
+      },
+      "3":{
+        "unlocks":"Vaccine Talisman",
+        "image":"/img/Vaccine_Talisman.png",
+        "description":"Provides immunity to Poison damage when held",
+        "rarity":"Common",
+        "required":"250"
       }
     }
   },
@@ -86,6 +117,7 @@
         "image":"http://via.placeholder.com/338x515?text=Coming+Soon",
         "rarity":"Common",
         "required":"50",
+        "description":"Generates Lapis while you are online / offline.",
         "matrix":["x","y","x", "x", "y", "x", "x","x","x"],
         "mat":{
           "x":"wheat:64",

@@ -29,6 +29,7 @@ app.get('/items/:type/:item/:tier', (req, res) => {
     var icon = itemObj.icon;
     var title = itemObj.title;
     var itemUrl = itemObj.image;
+    var required = tierObj.required;
     /*
     var cf = tierObj.matrix;
     console.log(cf)
@@ -36,7 +37,7 @@ app.get('/items/:type/:item/:tier', (req, res) => {
     */
     var unlockName = tierObj.unlocks;
     var type = itemObj.type;
-    res.render('item-template', {itemName: title, type: type, tNumber: number, itemUrl : itemUrl, unlockURL: unlockURL, baseURL : baseURL, unlockName: unlockName, icon: icon, rare: rare, desk: desk/*, cf: cf, mat: mat */});
+    res.render('item-template', {itemName: title, type: type, tNumber: number, itemUrl : itemUrl, unlockURL: unlockURL, baseURL : baseURL, unlockName: unlockName, icon: icon, rare: rare, desk: desk, required: required/*, cf: cf, mat: mat */});
     }
   })
 
