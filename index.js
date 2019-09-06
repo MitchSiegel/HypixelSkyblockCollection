@@ -2,7 +2,7 @@ const express = require("express");
 const fs = require("fs");
 const jf = require("jsonfile")
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 app.set('view engine', 'ejs');
 
 
@@ -16,7 +16,7 @@ app.get('/items/:type/:item/:tier', (req, res) => {
   jf.readFile("items.json",function (err, obj) {
     if (err) console.error(err)
     if(!obj[req.params.type][req.params.item][req.params.tier]){
-      res.end("Sorry this isn't supported yet!")
+      res.redirect(`/`)
     }else{
     var number = req.params.tier;
     var obj = obj[req.params.type];
@@ -24,11 +24,20 @@ app.get('/items/:type/:item/:tier', (req, res) => {
     var tierObj = itemObj[number];
     var baseURL = `/items/${req.params.type}/${req.params.item}`
     var unlockURL = tierObj.image;
+    var rare = tierObj.rarity;
+    var desk = tierObj.description;
+    var icon = itemObj.icon;
     var title = itemObj.title;
     var itemUrl = itemObj.image;
+    var required = tierObj.required;
+    /*
+    var cf = tierObj.matrix;
+    console.log(cf)
+    var mat = tierObj.mat;
+    */
     var unlockName = tierObj.unlocks;
     var type = itemObj.type;
-    res.render('item-template', {itemName: title, type: type, tNumber: number, itemUrl : itemUrl, unlockURL: unlockURL, baseURL : baseURL, unlockName: unlockName});
+    res.render('item-template', {itemName: title, type: type, tNumber: number, itemUrl : itemUrl, unlockURL: unlockURL, baseURL : baseURL, unlockName: unlockName, icon: icon, rare: rare, desk: desk, required: required/*, cf: cf, mat: mat */});
     }
   })
 

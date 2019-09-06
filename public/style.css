@@ -11,6 +11,21 @@ nav.breadcrumb .fas{
 nav a{
   color:white !important;
 }
+/* nav end */
+/* Collection Selectors */
+.item-img img{
+  display:block;
+  border-radius: 20px;
+  padding:20px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:hsla(0, 0%, 100%, 30%);
+}
+.item-img img:hover{
+  background-color:hsla(0, 0%, 100%, 300%);
+  cursor: pointer;
+}
+/* Collection selectors end */
 .item-wrapper{
   margin-top:5%;
   margin-left:10%;
@@ -57,14 +72,21 @@ h1{
   background-image: url("./img/bg.png");
   background-repeat: no-repeat;
   width:100%;
-  height:900px;
+  height:800px;
   background-position: center;
 }
-.selector-farm{
+.selector-Farming{
   background-image: url("./img/farming.png");
   background-repeat: no-repeat;
   width:100%;
-  height:900px;
+  height:800px;
+  background-position: center;
+}
+.selector-Mining{
+  background-image: url("./img/mining.png");
+  background-repeat: no-repeat;
+  width:100%;
+  height:800px;
   background-position: center;
 }
 #selector-bg{
@@ -106,22 +128,27 @@ h1{
 }
 /* Crafting table end */
 /* rareity / abilities label */
-.label:not(.second){
-  margin-top:108px;
+.labels .label{
+  display:inline-block;
+  margin-left:20px;
+  text-align: center;
 }
-.label.second{
-  margin-top:20px;
+.labels{
+  background-color:hsla(0, 0%, 100%, 70%);
 }
-.uncommon{
+.Uncommon{
   color:#55FF55;
 }
-.common{
-  color:white;
+.Common{
+  color:#555555;
 }
-.rare{
+.Rare{
+  color:#AA00AA;
+}
+.Epic{
   color:#5555FF;
 }
-.leg{
+.Leg{
   color:#FFAA00;
 }
 /* End rareity label */

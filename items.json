@@ -3,58 +3,153 @@
     "wheat":{
       "title":"Wheat",
       "type":"Farming",
+      "icon":"fas fa-wheat",
       "tiers":9,
-      "image":"https://gamepedia.cursecdn.com/minecraft_gamepedia/e/e2/Wheat.png",
+      "image":"/img/wheat.png",
       "1":{
         "unlocks":"Wheat Minion",
         "image":"/img/wheat_minion.png",
-        "rarity":"common",
+        "description":"Generates Wheat while you are online / offline.",
+        "rarity":"Common",
         "required":"50"
       },
       "2":{
         "unlocks":"Harvesting V",
         "image":"/img/ebook.png",
-        "rarity":"common",
+        "rarity":"Common",
+        "description":"Grants a 62.5% chance to harvest double crops",
+        "required":"100"
+      },
+      "3":{
+        "unlocks":"Farm Suit",
+        "image":"/img/farmcp.png",
+        "rarity":"Common",
+        "description":"Full Set Bonus: +20% Speed at The Farm, The Barn, and Mushroom Desert.",
+        "required":"250"
+      },
+      "4":{
+        "unlocks":"Farming Talisman",
+        "image":"/img/hb.png",
+        "rarity":"Common",
+        "description":"+10% Speed at The Farm, The Barn, and Mushroom Desert.",
+        "required":"500"
+      },
+      "5":{
+        "unlocks":"Enchanted Bread",
+        "image":"/img/enchanted_bread.png",
+        "rarity":"Common",
+        "description":"Used in Crafting & Can be used as a minoin fuel.",
+        "required":"500"
+      },
+      "6":{
+        "unlocks":"Farming Island",
+        "image":"/img/enchanted_bread.png",
+        "rarity":"Common",
+        "description":"Place this in your private world to spawn a Farming island!",
+        "required":"2.5k"
+      },
+      "7":{
+        "unlocks":"Enchanted Hay Bale",
+        "image":"http://via.placeholder.com/338x515?text=Coming+Soon",
+        "rarity":"Uncommon",
+        "description":"used in crafting?",
+        "required":"a lot lol"
+      }
+    },
+    "carrot":{
+      "title":"Carrot",
+      "type":"Farming",
+      "icon":"fas fa-carrot",
+      "tiers":9,
+      "image":"https://vignette.wikia.nocookie.net/minecraft/images/6/63/Carrot_Updated.png/revision/latest?cb=20190721134506",
+      "1":{
+        "unlocks":"Carrot Minion",
+        "image":"http://via.placeholder.com/338x515?text=Coming+Soon",
+        "description":"Generates Carrots while you are online / offline.",
+        "rarity":"Common",
+        "required":"50"
+      },
+      "2":{
+        "unlocks":"Carrot Minion",
+        "image":"http://via.placeholder.com/338x515?text=Coming+Soon",
+        "rarity":"Common",
+        "required":"50"
+      }
+    },
+    "potato":{
+      "title":"Potato",
+      "type":"Farming",
+      "icon":"fas fa-french-fries",
+      "tiers":9,
+      "image":"/img/potato.png",
+      "1":{
+        "unlocks":"Potato Minion",
+        "image":"http://via.placeholder.com/338x515?text=Coming+Soon",
+        "description":"Generates Potatos while you are online / offline.",
+        "rarity":"Common",
+        "required":"50"
+      },
+      "2":{
+        "unlocks":"Portal to Barn",
+        "image":"http://via.placeholder.com/338x515?text=Coming+Soon",
+        "description":"Provides a direct portal to the barn",
+        "rarity":"Common",
+        "required":"100"
+      },
+      "3":{
+        "unlocks":"Vaccine Talisman",
+        "image":"/img/Vaccine_Talisman.png",
+        "description":"Provides immunity to Poison damage when held",
+        "rarity":"Common",
+        "required":"250"
+      }
+    }
+  },
+  "mining":{
+    "lapis":{
+      "title":"Lapis",
+      "type":"Mining",
+      "icon":"fas fa-circle",
+      "tiers":9,
+      "image":"https://gamepedia.cursecdn.com/minecraft_gamepedia/9/9f/Lapis_Lazuli.png",
+      "1":{
+        "unlocks":"Lapis Minion",
+        "image":"http://via.placeholder.com/338x515?text=Coming+Soon",
+        "rarity":"Common",
+        "required":"50",
+        "description":"Generates Lapis while you are online / offline.",
+        "matrix":["x","y","x", "x", "y", "x", "x","x","x"],
+        "mat":{
+          "x":"wheat:64",
+          "y":"air:0"
+        }
+      },
+      "2":{
+        "unlocks":"Harvesting V",
+        "image":"/img/ebook.png",
+        "rarity":"Epic",
         "required":"100"
       },
       "3":{
         "unlocks":"Farm Suit",
         "image":"/img/ebook.png",
-        "rarity":"common",
+        "rarity":"Common",
         "abilty":"Full Suit Bonus: Speed at The Farm",
         "required":"250"
       },
       "4":{
         "unlocks":"Farming Talisman",
         "image":"/img/hb.png",
-        "rarity":"common",
+        "rarity":"Common",
         "abilty":"Full Suit Bonus: Speed at The Farm",
         "required":"500"
       },
       "5":{
         "unlocks":"Enchanted Bread",
         "image":"/img/enchanted_bread.png",
-        "rarity":"common",
+        "rarity":"Common",
         "abilty":"Full Suit Bonus: Speed at The Farm",
         "required":"500"
-      }
-    },
-    "carrot":{
-      "title":"Carrot",
-      "type":"Farming",
-      "tiers":9,
-      "image":"https://vignette.wikia.nocookie.net/minecraft/images/6/63/Carrot_Updated.png/revision/latest?cb=20190721134506",
-      "1":{
-        "unlocks":"Carrot Minion",
-        "image":"http://via.placeholder.com/338x515?text=Coming+Soon",
-        "rarity":"common",
-        "required":"50"
-      },
-      "2":{
-        "unlocks":"Carrot Minion",
-        "image":"http://via.placeholder.com/338x515?text=Coming+Soon",
-        "rarity":"common",
-        "required":"50"
       }
     }
   }
