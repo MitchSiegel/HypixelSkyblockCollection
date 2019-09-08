@@ -8,7 +8,7 @@
       "image":"/img/wheat.png",
       "1":{
         "unlocks":"Wheat Minion",
-        "image":"/img/wheat_minion.png",
+        "image":"/img/Wheat_Minion.png",
         "description":"Generates Wheat while you are online / offline.",
         "rarity":"Common",
         "required":"50"
@@ -36,14 +36,14 @@
       },
       "5":{
         "unlocks":"Enchanted Bread",
-        "image":"/img/enchanted_bread.png",
+        "image":"/img/Enchanted_Bread.png",
         "rarity":"Common",
         "description":"Used in Crafting & Can be used as a minoin fuel.",
         "required":"500"
       },
       "6":{
         "unlocks":"Farming Island",
-        "image":"/img/enchanted_bread.png",
+        "image":"/img/Enchanted_Bread.png",
         "rarity":"Common",
         "description":"Place this in your private world to spawn a Farming island!",
         "required":"2.5k"
@@ -53,7 +53,21 @@
         "image":"http://via.placeholder.com/338x515?text=Coming+Soon",
         "rarity":"Uncommon",
         "description":"used in crafting?",
-        "required":"a lot lol"
+        "required":"10k"
+      },
+      "8":{
+        "unlocks":"Farming Upgrade",
+        "image":"/img/cm.png",
+        "description":"Coming Soon",
+        "rarity":"Unknown",
+        "required":"15k"
+      },
+      "9":{
+        "unlocks":"Farm Armor",
+        "image":"/img/farmacp.png",
+        "description":"Full Set Bonus: +20% Speed at The Farm, The Barn, and Mushroom Desert.",
+        "rarity":"Rare",
+        "required":"15k"
       }
     },
     "carrot":{
@@ -81,7 +95,7 @@
       "type":"Farming",
       "icon":"fas fa-french-fries",
       "tiers":9,
-      "image":"/img/potato.png",
+      "image":"/img/Potato.png",
       "1":{
         "unlocks":"Potato Minion",
         "image":"http://via.placeholder.com/338x515?text=Coming+Soon",

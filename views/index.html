@@ -27,44 +27,113 @@
 	<div class="columns">
 		<div class="column is-2" style="padding:30px;background-color:#209CEE;margin-top:10px;">
 			<aside class="menu">
-				<p class="menu-label">
-				   Farming
-				</p>
-				<ul class="menu-list">
-				   <li><a id="wheat" href="/items/farming/wheat/1">Wheat</a></li>
-				   <li><a id="carrot" href="/items/farming/carrot/1">Carrots</a></li>
-				   <li><a id="pumkin" href="/items/farming/pumkin/1">Pumpkin</a></li>
-				   <li><a id="melon" href="/items/farming/melon/1">Melon</a></li>
-				   <li><a id="seeds" href="/items/farming/seeds/1">Seeds</a></li>
-				   <li><a id="mushroom" href="/items/farming/mushroom/1">Mushroom</a></li>
-				   <li><a id="CocoaBeans" href="/items/farming/CocoaBeans/1">Cocoa Beans</a></li>
-				   <li><a id="Cactus" href="/items/farming/Cactus/1">Cactus</a></li>
-				</ul>
-				<p class="menu-label">
-				   Combat
-				</p>
-				<ul class="menu-list">
-				   <li><a>Coming soon</a></li>
-				</ul>
-				<p class="menu-label">
-				   Mining
-				</p>
-				<ul class="menu-list">
-				   <li><a id="lapis" href="/items/mining/lapis/1">Lapis</a></li>
-				</ul>
-				<p class="menu-label">
-				   Foraging
-				</p>
-				<ul class="menu-list">
-				   <li><a>Coming soon</a></li>
-				</ul>
-				<p class="menu-label">
-				   Fishing
-				</p>
-				<ul class="menu-list">
-				   <li><a>Coming soon</a></li>
-				</ul>
-			 </aside>
+				<div class="dropdown is-hoverable">
+				  <div class="dropdown-trigger">
+					<div class="menu-labela" aria-haspopup="true" aria-controls="dropdown-menu">
+					  <span style="color:white;">Farming</span>
+					  <span class="icon is-small">
+						<i class="fas fa-angle-down" style="Color:white"aria-hidden="true"></i>
+					  </span>
+					 </div>
+				  </div>
+				  <div class="dropdown-menu" id="dropdown-menu" role="menu">
+					<div class="dropdown-content" style="background-color:rgb(20, 72, 107)">
+					  <div class="dropdown-item">
+						<ul class="menu-list">
+						   <li><a id="wheat" href="/items/farming/wheat/1">Wheat</a></li>
+						   <li><a id="carrot" href="/items/farming/carrot/1">Carrots</a></li>
+						   <li><a id="potato" href="/items/farming/potato/1">Potato</a></li>
+						   <li><a id="pumkin" href="/items/farming/pumkin/1" hidden>Pumpkin</a></li>
+						   <li><a id="melon" href="/items/farming/melon/1" hidden>Melon</a></li>
+						   <li><a id="seeds" href="/items/farming/seeds/1" hidden>Seeds</a></li>
+						   <li><a id="mushroom" href="/items/farming/mushroom/1" hidden>Mushroom</a></li>
+						   <li><a id="CocoaBeans" href="/items/farming/CocoaBeans/1" hidden>Cocoa Beans</a></li>
+						   <li><a id="Cactus" href="/items/farming/Cactus/1" hidden>Cactus</a></li>
+						</ul>
+					  </div>
+					</div>
+				  </div>
+				</div><br><Br>
+				<div class="dropdown is-hoverable">
+				  <div class="dropdown-trigger">
+					<div class="menu-labela" aria-haspopup="true" aria-controls="dropdown-menu0">
+					  <span style="color:white;">Combat</span>
+					  <span class="icon is-small">
+						<i class="fas fa-angle-down" style="Color:white"aria-hidden="true"></i>
+					  </span>
+					 </div>
+				  </div>
+				  <div class="dropdown-menu" id="dropdown-menu0" role="menu">
+					<div class="dropdown-content" style="background-color:rgb(20, 72, 107)">
+					  <div class="dropdown-item">
+						<ul class="menu-list">
+						   <li><a>Coming soon</a></li>
+						</ul>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				<br><Br>
+				  <div class="dropdown is-hoverable">
+					<div class="dropdown-trigger">
+					  <div class="menu-labela" aria-haspopup="true" aria-controls="dropdown-menu1">
+						<span style="color:white;">Mining</span>
+						<span class="icon is-small">
+						  <i class="fas fa-angle-down" style="Color:white"aria-hidden="true"></i>
+						</span>
+					   </div>
+					</div>
+					<div class="dropdown-menu" id="dropdown-menu1" role="menu">
+					  <div class="dropdown-content" style="background-color:rgb(20, 72, 107)">
+						<div class="dropdown-item">
+						  <ul class="menu-list">
+						   <li><a id="lapis" href="/items/mining/lapis/1">Lapis</a></li>
+						  </ul>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				  <br><Br>
+					 <div class="dropdown is-hoverable">
+					   <div class="dropdown-trigger">
+						 <div class="menu-labela" aria-haspopup="true" aria-controls="dropdown-menu2">
+						   <span style="color:white;">Foraging</span>
+						   <span class="icon is-small">
+							 <i class="fas fa-angle-down" style="Color:white"aria-hidden="true"></i>
+						   </span>
+						  </div>
+					   </div>
+					   <div class="dropdown-menu" id="dropdown-menu2" role="menu">
+						 <div class="dropdown-content" style="background-color:rgb(20, 72, 107)">
+						   <div class="dropdown-item">
+							 <ul class="menu-list">
+							  <li><a>Coming soon</a></li>
+							 </ul>
+						   </div>
+						 </div>
+					   </div>
+					 </div>
+					 <br><Br>
+						<div class="dropdown is-hoverable">
+						  <div class="dropdown-trigger">
+							<div class="menu-labela" aria-haspopup="true" aria-controls="dropdown-menu2">
+							  <span style="color:white;">Fishing</span>
+							  <span class="icon is-small">
+								<i class="fas fa-angle-down" style="Color:white"aria-hidden="true"></i>
+							  </span>
+							 </div>
+						  </div>
+						  <div class="dropdown-menu" id="dropdown-menu2" role="menu">
+							<div class="dropdown-content" style="background-color:rgb(20, 72, 107)">
+							  <div class="dropdown-item">
+								<ul class="menu-list">
+								 <li><a>Coming soon</a></li>
+								</ul>
+							  </div>
+							</div>
+						  </div>
+						</div>
+			</aside>
 		</div>
 		<div class="column" style="padding:0px;margin-top:10px;">
 			<div class="menu" style="padding:10px;background-color:#209CEE;">
@@ -91,7 +160,7 @@
 							</div>
 							<div class="column">
 								<div class="item-img">
-									<img src="/img/diamond_sword.png">
+									<img src="/img/Diamond_Sword.png">
 								</div>
 							</div>
 							<div class="column">
@@ -103,12 +172,12 @@
 						<div class="columns" style="margin-left:10px;">
 								<div class="column">
 									<div class="item-img">
-										<img src="/img/oak_log.png" width="200px">
+										<img src="/img/Oak_Log.png" width="200px">
 									</div>
 								</div>
 								<div class="column">
 									<div class="item-img">
-										<img src="/img/fishing_rod.png">
+										<img src="/img/Fishing_Rod.png">
 									</div>
 								</div>
 					</div>
