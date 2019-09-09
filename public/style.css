@@ -13,6 +13,13 @@ nav a{
 }
 footer.is-primary{
   background:#209CEE;
+  color:white;
+}
+footer.is-primary a{
+  color:white;
+}
+footer.is-primary a:hover{
+  text-decoration: underline;
 }
 /* nav end */
 /* Collection Selectors */
