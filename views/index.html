@@ -2,9 +2,20 @@
 <html>
 
 <head>
-	<title>Page Title</title>
+	<title>Hypixel Skyblock Items</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" />
 	<link rel="stylesheet" href="/style.css">
+	<meta name="theme-color" content="#db5945">
+	<meta property="og:title" content="Hypixel SkyBlock Collection">
+	<meta property="og:site_name" content="Hypixel SkyBlock Collection">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:url" content="hypixel.mit.gg">	
+	<meta name="title" content="Hypixel SkyBlock Collection">
+	<meta name="description" content="All items in one, well-designed site.">
+	<meta name="keywords" content="hypixel,skyblock,minecraft">
+	<meta name="robots" content="index, follow">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="language" content="English">
 	<script src="https://kit.fontawesome.com/5c16ef8200.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bulma-extensions@6.2.7/dist/js/bulma-extensions.min.js"></script>
 	<link rel="stylesheet" href="https://cdn.rawgit.com/octoshrimpy/bulma-o-steps/master/bulma-steps.css">
@@ -27,44 +38,113 @@
 	<div class="columns" style="margin-bottom:0px;">
 		<div class="column is-2" style="padding:30px;background-color:#209CEE;margin-top:10px;">
 			<aside class="menu">
-				<p class="menu-label">
-				   Farming
-				</p>
-				<ul class="menu-list">
-				   <li><a id="wheat" href="/items/farming/wheat/1">Wheat</a></li>
-				   <li><a id="carrot" href="/items/farming/carrot/1">Carrots</a></li>
-				   <li><a id="pumkin" href="/items/farming/pumkin/1">Pumpkin</a></li>
-				   <li><a id="melon" href="/items/farming/melon/1">Melon</a></li>
-				   <li><a id="seeds" href="/items/farming/seeds/1">Seeds</a></li>
-				   <li><a id="mushroom" href="/items/farming/mushroom/1">Mushroom</a></li>
-				   <li><a id="CocoaBeans" href="/items/farming/CocoaBeans/1">Cocoa Beans</a></li>
-				   <li><a id="Cactus" href="/items/farming/Cactus/1">Cactus</a></li>
-				</ul>
-				<p class="menu-label">
-				   Combat
-				</p>
-				<ul class="menu-list">
-				   <li><a>Coming soon</a></li>
-				</ul>
-				<p class="menu-label">
-				   Mining
-				</p>
-				<ul class="menu-list">
-				   <li><a id="lapis" href="/items/mining/lapis/1">Lapis</a></li>
-				</ul>
-				<p class="menu-label">
-				   Foraging
-				</p>
-				<ul class="menu-list">
-				   <li><a>Coming soon</a></li>
-				</ul>
-				<p class="menu-label">
-				   Fishing
-				</p>
-				<ul class="menu-list">
-				   <li><a>Coming soon</a></li>
-				</ul>
-			 </aside>
+				<div class="dropdown is-hoverable">
+				  <div class="dropdown-trigger">
+					<div class="menu-labela" aria-haspopup="true" aria-controls="dropdown-menu">
+					  <span style="color:white;">Farming</span>
+					  <span class="icon is-small">
+						<i class="fas fa-angle-down" style="Color:white"aria-hidden="true"></i>
+					  </span>
+					 </div>
+				  </div>
+				  <div class="dropdown-menu" id="dropdown-menu" role="menu">
+					<div class="dropdown-content" style="background-color:rgb(20, 72, 107)">
+					  <div class="dropdown-item">
+						<ul class="menu-list">
+						   <li><a id="wheat" href="/items/farming/wheat/1">Wheat</a></li>
+						   <li><a id="carrot" href="/items/farming/carrot/1">Carrots</a></li>
+						   <li><a id="potato" href="/items/farming/potato/1">Potato</a></li>
+						   <li><a id="pumkin" href="/items/farming/pumkin/1" hidden>Pumpkin</a></li>
+						   <li><a id="melon" href="/items/farming/melon/1" hidden>Melon</a></li>
+						   <li><a id="seeds" href="/items/farming/seeds/1" hidden>Seeds</a></li>
+						   <li><a id="mushroom" href="/items/farming/mushroom/1" hidden>Mushroom</a></li>
+						   <li><a id="CocoaBeans" href="/items/farming/CocoaBeans/1" hidden>Cocoa Beans</a></li>
+						   <li><a id="Cactus" href="/items/farming/Cactus/1" hidden>Cactus</a></li>
+						</ul>
+					  </div>
+					</div>
+				  </div>
+				</div><br><Br>
+				<div class="dropdown is-hoverable">
+				  <div class="dropdown-trigger">
+					<div class="menu-labela" aria-haspopup="true" aria-controls="dropdown-menu0">
+					  <span style="color:white;">Combat</span>
+					  <span class="icon is-small">
+						<i class="fas fa-angle-down" style="Color:white"aria-hidden="true"></i>
+					  </span>
+					 </div>
+				  </div>
+				  <div class="dropdown-menu" id="dropdown-menu0" role="menu">
+					<div class="dropdown-content" style="background-color:rgb(20, 72, 107)">
+					  <div class="dropdown-item">
+						<ul class="menu-list">
+						   <li><a>Coming soon</a></li>
+						</ul>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				<br><Br>
+				  <div class="dropdown is-hoverable">
+					<div class="dropdown-trigger">
+					  <div class="menu-labela" aria-haspopup="true" aria-controls="dropdown-menu1">
+						<span style="color:white;">Mining</span>
+						<span class="icon is-small">
+						  <i class="fas fa-angle-down" style="Color:white"aria-hidden="true"></i>
+						</span>
+					   </div>
+					</div>
+					<div class="dropdown-menu" id="dropdown-menu1" role="menu">
+					  <div class="dropdown-content" style="background-color:rgb(20, 72, 107)">
+						<div class="dropdown-item">
+						  <ul class="menu-list">
+						   <li><a id="lapis" href="/items/mining/lapis/1">Lapis</a></li>
+						  </ul>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				  <br><Br>
+					 <div class="dropdown is-hoverable">
+					   <div class="dropdown-trigger">
+						 <div class="menu-labela" aria-haspopup="true" aria-controls="dropdown-menu2">
+						   <span style="color:white;">Foraging</span>
+						   <span class="icon is-small">
+							 <i class="fas fa-angle-down" style="Color:white"aria-hidden="true"></i>
+						   </span>
+						  </div>
+					   </div>
+					   <div class="dropdown-menu" id="dropdown-menu2" role="menu">
+						 <div class="dropdown-content" style="background-color:rgb(20, 72, 107)">
+						   <div class="dropdown-item">
+							 <ul class="menu-list">
+							  <li><a>Coming soon</a></li>
+							 </ul>
+						   </div>
+						 </div>
+					   </div>
+					 </div>
+					 <br><Br>
+						<div class="dropdown is-hoverable">
+						  <div class="dropdown-trigger">
+							<div class="menu-labela" aria-haspopup="true" aria-controls="dropdown-menu2">
+							  <span style="color:white;">Fishing</span>
+							  <span class="icon is-small">
+								<i class="fas fa-angle-down" style="Color:white"aria-hidden="true"></i>
+							  </span>
+							 </div>
+						  </div>
+						  <div class="dropdown-menu" id="dropdown-menu2" role="menu">
+							<div class="dropdown-content" style="background-color:rgb(20, 72, 107)">
+							  <div class="dropdown-item">
+								<ul class="menu-list">
+								 <li><a>Coming soon</a></li>
+								</ul>
+							  </div>
+							</div>
+						  </div>
+						</div>
+			</aside>
 		</div>
 		<div class="column" style="padding:0px;margin-top:10px;background:#209CEE;">
 			<div class="menu" style="padding:10px;background-color:#209CEE;">
@@ -81,7 +161,12 @@
 				</nav>
 			</div>
 			<div class="selector">
-				<div class="columns" style="margin-left:10px;margin-top:0px;padding-top:5%;">
+					<article class="message is-danger">
+							<div class="message-body">
+							  This site is still very new & will contain missing info, and many bugs. Please excuse our incompleteness! For example, the navigation below doesn't work, please use the menu on the left.
+							</div>
+						  </article>
+				<div class="columns" style="margin-left:10px;margin-top:0px;padding-top:0;">
 					<div class="column is-9">
 						<div class="columns" style="margin-left:10px;">
 							<div class="column">
@@ -91,7 +176,7 @@
 							</div>
 							<div class="column">
 								<div class="item-img">
-									<img src="/img/diamond_sword.png">
+									<img src="/img/Diamond_Sword.png">
 								</div>
 							</div>
 							<div class="column">
@@ -103,15 +188,23 @@
 						<div class="columns" style="margin-left:10px;">
 								<div class="column">
 									<div class="item-img">
-										<img src="/img/oak_log.png" width="200px">
+										<img src="/img/Oak_Log.png" width="200px">
 									</div>
 								</div>
 								<div class="column">
 									<div class="item-img">
-										<img src="/img/fishing_rod.png">
+										<img src="/img/Fishing_Rod.png">
 									</div>
 								</div>
 					</div>
+					<article class="message">
+							<div class="message-header">
+								<p>v0.0.2beta | New Features</p>
+							</div>
+							<div class="message-body">
+								Site officially launched. Also fixed some typos. Footer is now on the item pages.
+							</div>
+						</article>
 				</div>
 					<div class="column" style="padding:30px;padding-left:0;padding-right:50px;">
 						<article class="message">
@@ -133,13 +226,12 @@
 	</div>
 	<footer class="footer is-primary">
 		<div class="content has-text-centered">
-		  <p>
-			<strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-			<a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-			is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+		  <p>We are open source. Check out our <a href="https://github.com/MitchSiegel/HypixelSkyblockCollection">GitHub here!</a><br>
+			  Site is a work in progress. This website is <b>not</b> officially related to either Hypixel or Minecraft.<br>
+			  Found missing / incorrect information?. <a href="https://github.com/MitchSiegel/HypixelSkyblockCollection/issues">Submit an issue here! (or just message me on discord Mitch#0001)</a>
 		  </p>
 		</div>
-	  </footer>
+	</footer>	  
 </body>
 
 </html>
