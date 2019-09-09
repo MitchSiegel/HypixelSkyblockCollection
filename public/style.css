@@ -79,7 +79,17 @@ footer.is-primary a:hover{
 h1{
   color:white;
 }
+ .has-text-dark.step[disabled=disabled] .steps-marker{
+  color:red !important;
+  background-color:grey !important;
 
+}
+
+.steps-segment > .has-text-dark.step[disabled=disabled]:after{
+  color:red !important;
+  background-color:grey !important;
+
+}
 .selector{
   background-image: url("./img/bg.png");
   background-repeat: no-repeat;

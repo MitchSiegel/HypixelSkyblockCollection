@@ -316,11 +316,14 @@
          document.querySelector(item).setAttribute("href","#")
          var stepURL = "#<%= itemName %>".toLowerCase()
          var activeTier = Number("<%= tNumber %>")-1
-         console.log(activeTier)
+         var numberOfTiers = Number("<%= tierNumber %>")-1
          var steps = document.querySelectorAll(".step")
          var stepsA = document.querySelectorAll(".step-act")
          stepsA[activeTier].setAttribute("class","steps-segment step-act is-active")
          for(i in steps){
+            if(i > numberOfTiers){
+               steps[i].setAttribute("disabled", "disabled")
+            }
             steps[i].setAttribute("href", Number(Number(i) + 1))
          }
          /* Load crafting table : disabled for now 

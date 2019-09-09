@@ -74,7 +74,7 @@
       "title":"Carrot",
       "type":"Farming",
       "icon":"fas fa-carrot",
-      "tiers":9,
+      "tiers":2,
       "image":"https://vignette.wikia.nocookie.net/minecraft/images/6/63/Carrot_Updated.png/revision/latest?cb=20190721134506",
       "1":{
         "unlocks":"Carrot Minion",
@@ -87,7 +87,7 @@
         "unlocks":"Carrot Minion",
         "image":"http://via.placeholder.com/338x515?text=Coming+Soon",
         "rarity":"Common",
-        "required":"50"
+        "required":"100"
       }
     },
     "potato":{
