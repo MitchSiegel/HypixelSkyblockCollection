@@ -117,6 +117,34 @@
         "rarity":"Common",
         "required":"250"
       }
+    },
+    "pumpkin":{
+      "title":"Pumpkin",
+      "type":"Farming",
+      "icon":"fas fa-pumpkin",
+      "tiers":9,
+      "image":"/img/pumpkin.png",
+      "1":{
+        "unlocks":"Pumpkin Minion",
+        "image":"/img/cm.png",
+        "description":"Generates Pumpkins while you are online / offline.",
+        "rarity":"Common",
+        "required":"50"
+      }
+    },
+    "melon":{
+      "title":"Melons",
+      "type":"Farming",
+      "icon":"fas fa-french-fries",
+      "tiers":9,
+      "image":"/img/melon.png",
+      "1":{
+        "unlocks":"Melon Minion",
+        "image":"/img/cm.png",
+        "description":"Generates Melon while you are online / offline.",
+        "rarity":"Common",
+        "required":"50"
+      }
     }
   },
   "mining":{

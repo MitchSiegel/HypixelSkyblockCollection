@@ -61,6 +61,7 @@ footer.is-primary a:hover{
 }
 .item-picture img{
   margin-top:15%;
+  max-width:200px;
   padding:20px;
   display: block;
   margin-left: auto;
@@ -70,7 +71,8 @@ footer.is-primary a:hover{
 }
 .item-picture-minion{
   border-radius:20px;
-  width:80%;
+  width:100%;
+  max-width:200px;
   padding:20px;
   background-color:hsla(0, 0%, 100%, 40%);
 }
