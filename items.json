@@ -22,7 +22,7 @@
       },
       "3":{
         "unlocks":"Farm Suit",
-        "image":"/img/farmcp.png",
+        "image":"/img/farmcp.webp",
         "rarity":"Common",
         "description":"Full Set Bonus: +20% Speed at The Farm, The Barn, and Mushroom Desert.",
         "required":"250"
@@ -57,7 +57,7 @@
       },
       "8":{
         "unlocks":"Farming Upgrade",
-        "image":"/img/cm.png",
+        "image":"/img/cm.webp",
         "description":"Coming Soon",
         "rarity":"Unknown",
         "required":"15k"
@@ -123,10 +123,10 @@
       "type":"Farming",
       "icon":"fas fa-pumpkin",
       "tiers":9,
-      "image":"/img/pumpkin.png",
+      "image":"/img/pumpkin.webp",
       "1":{
         "unlocks":"Pumpkin Minion",
-        "image":"/img/cm.png",
+        "image":"/img/cm.webp",
         "description":"Generates Pumpkins while you are online / offline.",
         "rarity":"Common",
         "required":"50"
@@ -140,7 +140,7 @@
       "image":"/img/melon.png",
       "1":{
         "unlocks":"Melon Minion",
-        "image":"/img/cm.png",
+        "image":"/img/cm.webp",
         "description":"Generates Melon while you are online / offline.",
         "rarity":"Common",
         "required":"50"
