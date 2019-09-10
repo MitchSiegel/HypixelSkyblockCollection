@@ -85,21 +85,21 @@ h1{
 }
 
 .selector{
-  background-image: url("./img/bg.png");
+  background-image: url("./img/bg.webp");
   background-repeat: no-repeat;
   width:100%;
   height:700px;
   background-position: center;
 }
 .selector-Farming{
-  background-image: url("./img/Farming.png");
+  background-image: url("./img/Farming.webp");
   background-repeat: no-repeat;
   width:100%;
   height:700px;
   background-position: center;
 }
 .selector-Mining{
-  background-image: url("./img/Mining.png");
+  background-image: url("./img/Mining.webp");
   background-repeat: no-repeat;
   width:100%;
   height:700px;
