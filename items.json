@@ -94,7 +94,7 @@
       "title":"Potato",
       "type":"Farming",
       "icon":"fas fa-french-fries",
-      "tiers":9,
+      "tiers":1,
       "image":"/img/Potato.png",
       "1":{
         "unlocks":"Potato Minion",

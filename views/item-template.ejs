@@ -9,6 +9,7 @@
       <script src="https://cdn.jsdelivr.net/npm/bulma-extensions@6.2.7/dist/js/bulma-extensions.min.js"></script>
       <link rel="stylesheet" href="https://cdn.rawgit.com/octoshrimpy/bulma-o-steps/master/bulma-steps.css">
       <script src="https://cdn.jsdelivr.net/npm/bulma-extensions@6.2.7/bulma-steps/dist/js/bulma-steps.min.js"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-extensions@6.2.7/bulma-tooltip/dist/css/bulma-tooltip.min.css">
    </head>
    <body>
       <section class="hero is-primary is-bold">
@@ -26,6 +27,7 @@
       <div class="columns" style="margin-bottom:0px;">
       <div class="column is-2" style="padding:30px;background-color:#209CEE;margin-top:10px;">
          <aside class="menu">
+            <a href="/" style="color:white"><i class="fas fa-home" aria-hidden="true"></i>&nbsp;Home</a><br><br>
              <div class="dropdown is-hoverable">
                <div class="dropdown-trigger">
                  <div class="menu-labela" aria-haspopup="true" aria-controls="dropdown-menu">
@@ -177,10 +179,11 @@
                   </a>
                </li>
                <li class="steps-segment step-act">
-                  <a href="#" class="has-text-dark step">
+                  <a href="#" class="has-text-dark step" >
                   <span class="steps-marker">
                   <span class="icon">
                   2
+                   
                   </span>
                   </span>
                   </a>
@@ -323,8 +326,15 @@
          for(i in steps){
             if(i > numberOfTiers){
                steps[i].setAttribute("disabled", "disabled")
+               var x = steps[i].getAttribute("class");
+               steps[i].setAttribute("class", x + " tooltip is-tooltip-danger")
+               steps[i].setAttribute("data-tooltip","Sorry, this tier isn't added yet! Check back later.")
+            }else{
+               steps[i].setAttribute("href", Number(Number(i) + 1))
+               var x = steps[i].getAttribute("class");
+               steps[i].setAttribute("class", x + " tooltip is-tooltip-warning")
+               steps[i].setAttribute("data-tooltip","<%= itemName %> Tier " + Number(Number(i) + 1))
             }
-            steps[i].setAttribute("href", Number(Number(i) + 1))
          }
          /* Load crafting table : disabled for now 
          var cf = `[<%= %>]`;

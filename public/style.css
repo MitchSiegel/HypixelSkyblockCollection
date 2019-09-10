@@ -80,16 +80,10 @@ h1{
   color:white;
 }
  .has-text-dark.step[disabled=disabled] .steps-marker{
-  color:red !important;
-  background-color:grey !important;
-
+  background-color:#b6b4b4 !important;
+  color:white;
 }
 
-.steps-segment > .has-text-dark.step[disabled=disabled]:after{
-  color:red !important;
-  background-color:grey !important;
-
-}
 .selector{
   background-image: url("./img/bg.png");
   background-repeat: no-repeat;
@@ -178,4 +172,8 @@ h1{
 a[hidden]{
   display:none !important;
 }
+a[disabled]:hover{
+  cursor:no-drop !important;
+}
 /* mobile overlay; TOOD */
+/* Tooltip */
