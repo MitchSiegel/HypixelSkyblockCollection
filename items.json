@@ -15,7 +15,7 @@
       },
       "2":{
         "unlocks":"Harvesting V",
-        "image":"/img/ebook.png",
+        "image":"/img/ebook.webp",
         "rarity":"Common",
         "description":"Grants a 62.5% chance to harvest double crops",
         "required":"100"
@@ -29,7 +29,7 @@
       },
       "4":{
         "unlocks":"Farming Talisman",
-        "image":"/img/hb.png",
+        "image":"/img/hb.webp",
         "rarity":"Common",
         "description":"+10% Speed at The Farm, The Barn, and Mushroom Desert.",
         "required":"500"
@@ -43,7 +43,7 @@
       },
       "6":{
         "unlocks":"Farming Island",
-        "image":"/img/hb.png",
+        "image":"/img/hb.webp",
         "rarity":"Common",
         "description":"Place this in your private world to spawn a Farming island!",
         "required":"2.5k"
@@ -168,13 +168,13 @@
       },
       "2":{
         "unlocks":"Harvesting V",
-        "image":"/img/ebook.png",
+        "image":"/img/ebook.webp",
         "rarity":"Epic",
         "required":"100"
       },
       "3":{
         "unlocks":"Farm Suit",
-        "image":"/img/ebook.png",
+        "image":"/img/ebook.webp",
         "rarity":"Common",
         "abilty":"Full Suit Bonus: Speed at The Farm",
         "required":"250"
