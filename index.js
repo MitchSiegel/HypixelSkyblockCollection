@@ -2,7 +2,15 @@ const express = require("express");
 const fs = require("fs");
 const jf = require("jsonfile")
 const app = express();
+var sslRedirect = require('strong-ssl-redirect');
 const port = process.env.PORT || 8080;
+var environment  = 'production'  /* 'other' 'development', 'productionproduction'*/
+app.use(sslRedirect({
+    environment,
+    www: false,
+    status: 301
+}));
+ 
 app.set('view engine', 'ejs');
 
 
@@ -26,6 +34,7 @@ app.get('/items/:type/:item/:tier', (req, res) => {
     var unlockURL = tierObj.image;
     var rare = tierObj.rarity;
     var desk = tierObj.description;
+    var tierNumber = itemObj.tiers || "9";
     var icon = itemObj.icon;
     var title = itemObj.title;
     var itemUrl = itemObj.image;
@@ -37,7 +46,7 @@ app.get('/items/:type/:item/:tier', (req, res) => {
     */
     var unlockName = tierObj.unlocks;
     var type = itemObj.type;
-    res.render('item-template', {itemName: title, type: type, tNumber: number, itemUrl : itemUrl, unlockURL: unlockURL, baseURL : baseURL, unlockName: unlockName, icon: icon, rare: rare, desk: desk, required: required/*, cf: cf, mat: mat */});
+    res.render('item-template', {itemName: title, type: type, tNumber: number, itemUrl : itemUrl, unlockURL: unlockURL, baseURL : baseURL, unlockName: unlockName, icon: icon, rare: rare, desk: desk, required: required, tierNumber: tierNumber/*, cf: cf, mat: mat */});
     }
   })
 
