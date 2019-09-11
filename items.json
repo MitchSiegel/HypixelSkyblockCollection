@@ -164,7 +164,7 @@
       },
       "4":{
         "unlocks":"Enchanted Potato",
-        "image":"/img/enchanted_potato.webp",
+        "image":"/img/Enchanted_potato.webp",
         "rarity":"Uncommon",
         "required":"1.8k"
       },
@@ -205,7 +205,7 @@
       "title":"Pumpkin",
       "type":"Farming",
       "icon":"fas fa-pumpkin",
-      "tiers":9,
+      "tiers":4,
       "image":"/img/pumpkin.webp",
       "1":{
         "unlocks":"Pumpkin Minion",
@@ -217,7 +217,7 @@
       "2":{
         "unlocks":"Pumpkin Chestplate",
         "image":"/img/pumpkincp.webp",
-        "description":"Full Set Bonus: Pumpkin Buff\n Grants +10.0% damage reduction against all damage sources and +10.0 damage.",
+        "description":"Full Set Bonus: Pumpkin Buff Grants +10.0% damage reduction against all damage sources and +10.0 damage.",
         "rarity":"Common",
         "required":"100"
       },
@@ -269,13 +269,90 @@
     "melon":{
       "title":"Melons",
       "type":"Farming",
-      "icon":"fas fa-french-fries",
-      "tiers":9,
+      "icon":"fas fa-wheat",
+      "tiers":1,
       "image":"/img/melon.webp",
       "1":{
         "unlocks":"Melon Minion",
         "image":"/img/cm.webp",
         "description":"Generates Melon while you are online / offline.",
+        "rarity":"Common",
+        "required":"50"
+      }
+    },
+    "seeds":{
+      "title":"Seeds",
+      "type":"Farming",
+      "icon":"fas fa-seedling",
+      "tiers":6,
+      "image":"/img/seeds.png",
+      "1":{
+        "unlocks":"Dirt Trade",
+        "image":"/img/dirt.webp",
+        "description":"Allows you to trade 8 seeds for dirt blocks.",
+        "rarity":"Common",
+        "required":"50"
+      },
+      "2":{
+        "unlocks":"Clay Trade",
+        "image":"/img/Clay.png",
+        "description":"Allows you to trade seeds for clay.",
+        "rarity":"Common",
+        "required":"250"
+      },
+      "3":{
+        "unlocks":"Long Grass Trade",
+        "image":"/img/grass.webp",
+        "description":"Allows you to trade seeds for Long Grass.",
+        "rarity":"Common",
+        "required":"500"
+      },
+      "4":{
+        "unlocks":"Fern Trade",
+        "image":"/img/grass.webp",
+        "description":"Allows you to trade seeds for Ferns",
+        "rarity":"Common",
+        "required":"1000"
+      },     
+       "5":{
+        "unlocks":"Dead Bush Trade",
+        "image":"/img/grass.webp",
+        "description":"Allows you to trade seeds for Dead Bushes",
+        "rarity":"Common",
+        "required":"5000"
+      },
+      "6":{
+        "unlocks":"Double Tall Grass Trade",
+        "image":"/img/grass.webp",
+        "description":"Allows you to trade seeds for Double Tall Grass.",
+        "rarity":"Common",
+        "required":"5000"
+      }
+    },
+    "mushroom":{
+      "title":"Mushroom",
+      "type":"Farming",
+      "icon":"fas fa-wheat",
+      "tiers":1,
+      "image":"/img/melon.webp",
+      "1":{
+        "unlocks":"Mushroom Minion",
+        "image":"/img/cm.webp",
+        "description":"Generates Mushroom while you are online / offline.",
+        "rarity":"Common",
+        "required":"50"
+      }
+    },
+    "sugarcane":{
+      "title":"Sugar Cane",
+      "type":"Farming",
+      "icon":"fas fa-wheat",
+      "tiers":1,
+      "image":"/img/SugarCane.png",
+      "1":{
+        "unlocks":"Sugar Cane Minion",
+        "image":"/img/cm.webp",
+        "description":"Generates Sugar Cane while you are online / offline.",
         "rarity":"Common",
         "required":"50"
       }
@@ -287,7 +364,7 @@
       "type":"Mining",
       "icon":"fas fa-circle",
       "tiers":9,
-      "image":"https://gamepedia.cursecdn.com/minecraft_gamepedia/9/9f/Lapis_Lazuli.png",
+      "image":"/img/lapis_lazuli.png",
       "1":{
         "unlocks":"Lapis Minion",
         "image":"http://via.placeholder.com/338x515?text=Coming+Soon",
