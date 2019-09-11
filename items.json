@@ -209,10 +209,61 @@
       "image":"/img/pumpkin.webp",
       "1":{
         "unlocks":"Pumpkin Minion",
-        "image":"/img/cm.webp",
+        "image":"/img/pumpkinminion.png",
         "description":"Generates Pumpkins while you are online / offline.",
         "rarity":"Common",
-        "required":"50"
+        "required":"40"
+      },
+      "2":{
+        "unlocks":"Pumpkin Chestplate",
+        "image":"/img/pumpkincp.webp",
+        "description":"Full Set Bonus: Pumpkin Buff\n Grants +10.0% damage reduction against all damage sources and +10.0 damage.",
+        "rarity":"Common",
+        "required":"100"
+      },
+      "3":{
+        "unlocks":"+25 Farming EXP",
+        "image":"/img/wheat.png",
+        "rarity":"Null",
+        "required":"250"
+      },
+      "4":{
+        "unlocks":"Enchanted Pumpkin",
+        "image":"/img/Enchanted_pumkin.webp",
+        "rarity":"Uncommon",
+        "required":"1k"
+      },
+      "5":{
+        "unlocks":"Venomous Potions",
+        "image":"/img/venompot.webp",
+        "rarity":"Common",
+        "description":"Grants a reduction in Speed and deals damage over time.",
+        "required":"2.5k"
+      },
+      "6":{
+        "unlocks":"+1,000 Farming EXP",
+        "image":"/img/wheat.png",
+        "rarity":"Null",
+        "required":"5k"
+      },
+      "7":{
+        "unlocks":"Enchanted Baked Potato",
+        "image":"/img/ebakedpotato.webp",
+        "rarity":"Uncommon",
+        "required":"10k"
+      },
+      "8":{
+        "unlocks":"Hot Potato Book",
+        "image":"/img/hotpotbook.webp",
+        "description":"Combine this Book in an Anvil with a weapon or armor piece to gain a small but permanent stat boost!",
+        "rarity":"Epic",
+        "required":"25k"
+      },
+      "9":{
+        "unlocks":"+5,000 Farming EXP",
+        "image":"/img/wheat.png",
+        "rarity":"Null",
+        "required":"50k"
       }
     },
     "melon":{
