@@ -64,7 +64,7 @@
       },
       "9":{
         "unlocks":"Farm Armor",
-        "image":"/img/farmacp.png",
+        "image":"/img/farmacp.webp",
         "description":"Full Set Bonus: +20% Speed at The Farm, The Barn, and Mushroom Desert.",
         "rarity":"Rare",
         "required":"25k"
@@ -74,48 +74,131 @@
       "title":"Carrot",
       "type":"Farming",
       "icon":"fas fa-carrot",
-      "tiers":1,
-      "image":"https://vignette.wikia.nocookie.net/minecraft/images/6/63/Carrot_Updated.png/revision/latest?cb=20190721134506",
+      "tiers":9,
+      "image":"/img/carrot.png",
       "1":{
         "unlocks":"Carrot Minion",
         "image":"/img/carrotminion.png",
         "description":"Generates Carrots while you are online / offline.",
         "rarity":"Common",
-        "required":"50"
+        "required":"100"
       },
       "2":{
-        "unlocks":"Carrot Minion",
-        "image":"http://via.placeholder.com/338x515?text=Coming+Soon",
-        "rarity":"Common",
-        "required":"100"
+        "unlocks":"Pet Food",
+        "image":"/img/cm.webp",
+        "rarity":"Unknown",
+        "description":"Coming Soon",
+        "required":"250"
+      },
+      "3":{
+        "unlocks":"Catching Egg",
+        "image":"/img/cm.webp",
+        "rarity":"Unknown",
+        "description":"Coming Soon",
+        "required":"500"
+      },
+      "4":{
+        "unlocks":"Enchanted Carrot",
+        "image":"/img/ecarrot.webp",
+        "rarity":"Uncommon",
+        "required":"1.8k"
+      },
+      "5":{
+        "unlocks":"Enchanted Carrot On A Stick",
+        "image":"/img/ecarrotstick.webp",
+        "rarity":"Uncommon",
+        "required":"5k"
+      },
+      "6":{
+        "unlocks":"Super Catching Egg",
+        "image":"/img/cm.webp",
+        "description":"Coming Soon",
+        "rarity":"Unknown",
+        "required":"10k"
+      },
+      "7":{
+        "unlocks":"Enchanted Golden Carrot",
+        "image":"/img/egoldcarrot.webp",
+        "rarity":"Uncommon",
+        "required":"25k"
+      },
+      "8":{
+        "unlocks":"Carrot Candy",
+        "image":"/img/cm.webp",
+        "rarity":"Unknown",
+        "required":"50k"
+      },
+      "9":{
+        "unlocks":"Mega Catching Egg",
+        "image":"/img/cm.webp",
+        "rarity":"Unknown",
+        "required":"100k"
       }
     },
     "potato":{
       "title":"Potato",
       "type":"Farming",
       "icon":"fas fa-french-fries",
-      "tiers":1,
+      "tiers":9,
       "image":"/img/Potato.png",
       "1":{
         "unlocks":"Potato Minion",
-        "image":"http://via.placeholder.com/338x515?text=Coming+Soon",
+        "image":"/img/potatoMinion.webp",
         "description":"Generates Potatos while you are online / offline.",
-        "rarity":"Common",
-        "required":"50"
-      },
-      "2":{
-        "unlocks":"Portal to Barn",
-        "image":"http://via.placeholder.com/338x515?text=Coming+Soon",
-        "description":"Provides a direct portal to the barn",
         "rarity":"Common",
         "required":"100"
       },
+      "2":{
+        "unlocks":"Portal to Barn",
+        "image":"/img/portaltothebarn.webp",
+        "description":"Provides a direct portal to the barn",
+        "rarity":"Common",
+        "required":"200"
+      },
       "3":{
         "unlocks":"Vaccine Talisman",
-        "image":"/img/Vaccine_Talisman.png",
+        "image":"/img/Vaccine_Talisman.webp",
         "description":"Provides immunity to Poison damage when held",
         "rarity":"Common",
-        "required":"250"
+        "required":"500"
+      },
+      "4":{
+        "unlocks":"Enchanted Potato",
+        "image":"/img/enchanted_potato.webp",
+        "rarity":"Uncommon",
+        "required":"1.8k"
+      },
+      "5":{
+        "unlocks":"Venomous Potions",
+        "image":"/img/venompot.webp",
+        "rarity":"Common",
+        "description":"Grants a reduction in Speed and deals damage over time.",
+        "required":"5k"
+      },
+      "6":{
+        "unlocks":"+1,000 Farming EXP",
+        "image":"/img/wheat.png",
+        "rarity":"Null",
+        "required":"10k"
+      },
+      "7":{
+        "unlocks":"Enchanted Baked Potato",
+        "image":"/img/ebakedpotato.webp",
+        "rarity":"Uncommon",
+        "required":"25k"
+      },
+      "8":{
+        "unlocks":"Hot Potato Book",
+        "image":"/img/hotpotbook.webp",
+        "description":"Combine this Book in an Anvil with a weapon or armor piece to gain a small but permanent stat boost!",
+        "rarity":"Epic",
+        "required":"50k"
+      },
+      "9":{
+        "unlocks":"+10,000 Farming EXP",
+        "image":"/img/wheat.png",
+        "rarity":"Null",
+        "required":"100k"
       }
     },
     "pumpkin":{
@@ -137,7 +220,7 @@
       "type":"Farming",
       "icon":"fas fa-french-fries",
       "tiers":9,
-      "image":"/img/melon.png",
+      "image":"/img/melon.webp",
       "1":{
         "unlocks":"Melon Minion",
         "image":"/img/cm.webp",
