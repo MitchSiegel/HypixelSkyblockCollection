@@ -5,8 +5,7 @@ var urlsToCache = [
 ];
 var Farmingitems = [
   "wheat",
-  "carrot",
-  "melons"
+  "carrot"
 ]
 var images = [
   '/img/wheat.png',
