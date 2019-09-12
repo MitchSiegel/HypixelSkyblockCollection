@@ -1,7 +1,7 @@
 var CACHE_NAME = 'my-site-cache-v1';
 var domain = "localhost:8080"
 var urlsToCache = [
- '/', '/style.css'
+ '/', '/style.css',"https://kit.fontawesome.com/5c16ef8200.js"
 ];
 var Farmingitems = [
   "wheat",
