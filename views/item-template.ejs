@@ -13,7 +13,7 @@
       <script src="https://cdn.jsdelivr.net/npm/bulma-extensions@6.2.7/bulma-steps/dist/js/bulma-steps.min.js"></script>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-extensions@6.2.7/bulma-tooltip/dist/css/bulma-tooltip.min.css">
    </head>
-   <body>
+   <body onload="checkOnline()">
       <section class="hero is-primary is-bold">
          <div class="hero-body">
             <div class="container">
@@ -308,6 +308,13 @@
             </div>
          </div>
       </div>
+      <div class="offline">
+
+         <div class="notification is-info">
+            You are viewing this page offline. You will not see changes to the site until you go online.
+          </div>
+          
+      </div>
       <footer class="footer is-primary">
             <div class="content has-text-centered">
               <p>We are open source. Check out our <a href="https://github.com/MitchSiegel/HypixelSkyblockCollection">GitHub here!</a><br>
@@ -334,10 +341,12 @@
                steps[i].setAttribute("class", x + " tooltip is-tooltip-danger")
                steps[i].setAttribute("data-tooltip","Sorry, this tier isn't added yet! Check back later.")
             }else{
-               steps[i].setAttribute("href", Number(Number(i) + 1))
-               var x = steps[i].getAttribute("class");
-               steps[i].setAttribute("class", x + " tooltip is-tooltip-warning")
-               steps[i].setAttribute("data-tooltip","<%= itemName %> Tier " + Number(Number(i) + 1))
+               try{
+                  steps[i].setAttribute("href", Number(Number(i) + 1))
+                  var x = steps[i].getAttribute("class");
+                  steps[i].setAttribute("class", x + " tooltip is-tooltip-warning")
+                  steps[i].setAttribute("data-tooltip","<%= itemName %> Tier " + Number(Number(i) + 1))
+               }catch(e){}
             }
          }
          /* Load crafting table : disabled for now 
@@ -352,13 +361,21 @@
                        window.addEventListener('load', function() {
                          navigator.serviceWorker.register('/sw.js').then(function(registration) {
                            // Registration was successful
-                           console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                           console.log('SW Started Succesfully at: ', registration.scope);
                          }, function(err) {
                            // registration failed :(
                            console.log('ServiceWorker registration failed: ', err);
                          });
                        });
                      }
+function checkOnline(){
+   if (navigator.onLine) {
+      document.querySelector(".offline").setAttribute("style","visibility:hidden !important;")
+      console.log("in-online")
+    } else {
+      document.querySelector(".offline").setAttribute("style","visibility:visible !important;")
+    }
+}
             </script>
    </body>
 </html>

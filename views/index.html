@@ -23,7 +23,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bulma-extensions@6.2.7/bulma-steps/dist/js/bulma-steps.min.js"></script>
 </head>
 
-<body>
+<body onload="checkOnline()">
 	<section class="hero is-primary is-bold">
 		<div class="hero-body">
 			<div class="container">
@@ -225,6 +225,13 @@
 				</div>
 			</div>
 		</div>
+		<div class="offline">
+
+			<div class="notification is-info">
+			   You are viewing this page offline. You will not see changes to the site until you go online.
+			 </div>
+			 
+		 </div>
 	</div>
 	<footer class="footer is-primary">
 		<div class="content has-text-centered">
@@ -240,13 +247,24 @@
            window.addEventListener('load', function() {
              navigator.serviceWorker.register('/sw.js').then(function(registration) {
                // Registration was successful
-               console.log('ServiceWorker registration successful with scope: ', registration.scope);
+			   console.log('SW working at: ', registration.scope);
+			   if(navigator.onLine === false){
+				   document.querySelector(".offline").setAttribute("visibility","visible")
+			   }
              }, function(err) {
                // registration failed :(
                console.log('ServiceWorker registration failed: ', err);
              });
            });
          }
+function checkOnline(){
+   if (navigator.onLine) {
+      document.querySelector(".offline").setAttribute("style","visibility:hidden !important;")
+      console.log("in-online")
+    } else {
+      document.querySelector(".offline").setAttribute("style","visibility:visible !important;")
+    }
+}
 </script>
 </body>
 

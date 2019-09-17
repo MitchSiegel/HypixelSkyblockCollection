@@ -9,9 +9,11 @@
     "jsonfile": "^5.0.0",
     "strong-ssl-redirect": "0.0.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^6.4.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run": "node index"
   },
   "repository": {
     "type": "git",

@@ -2,7 +2,7 @@
     "short_name": "Skyblock Collection",
     "name": "Hypixel Skyblock Collection",
     "start_url": "/",
-    "background_color": "hsla(0, 0%, 100%, 30%)",
+    "background_color": "#209CEE",
     "display": "standalone",
     "scope": "/",
     "theme_color": "white"
