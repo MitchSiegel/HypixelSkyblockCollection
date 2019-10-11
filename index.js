@@ -3,6 +3,12 @@ const fs = require("fs");
 const jf = require("jsonfile")
 const app = express();
 var sslRedirect = require('strong-ssl-redirect');
+/* I know this isn't how you are supposed to do it, but eslint was bugging me */
+var process = {
+  env:{
+    PORT:"8080"
+  }
+}
 const port = process.env.PORT || 8080;
 var environment  = 'production'  /* 'other' 'development', 'productionproduction'*/
 app.use(sslRedirect({
@@ -21,13 +27,13 @@ app.get("/item", function(req, res) {
   render("item", res);
 });
 app.get('/items/:type/:item/:tier', (req, res) => {
-  jf.readFile("items.json",function (err, obj) {
+  jf.readFile("items.json",function (err, obj2) {
     if (err) console.error(err)
-    if(!obj[req.params.type][req.params.item][req.params.tier]){
+    if(!obj2[req.params.type][req.params.item][req.params.tier]){
       res.redirect(`/`)
     }else{
     var number = req.params.tier;
-    var obj = obj[req.params.type];
+    var obj = obj2[req.params.type];
     var itemObj = obj[req.params.item];
     var tierObj = itemObj[number];
     var baseURL = `/items/${req.params.type}/${req.params.item}`

@@ -1,5 +1,4 @@
 var CACHE_NAME = 'my-site-cache-v1';
-var domain = "localhost:8080"
 var urlsToCache = [
  '/','/style.css',"https://kit.fontawesome.com/5c16ef8200.js","https://cdn.jsdelivr.net/npm/bulma-extensions@6.2.7/dist/js/bulma-extensions.min.js","https://cdn.jsdelivr.net/npm/bulma-extensions@6.2.7/bulma-steps/dist/js/bulma-steps.min.js",
  "https://cdn.rawgit.com/octoshrimpy/bulma-o-steps/master/bulma-steps.css","https://cdn.jsdelivr.net/npm/bulma-extensions@6.2.7/bulma-tooltip/dist/css/bulma-tooltip.min.css"
@@ -48,6 +47,8 @@ self.addEventListener('fetch', function(event) {
     )
   );
 });
+var x;
+var i;
 function loadCache(cache){
   
   for(x in Farmingitems){
