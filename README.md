@@ -1,3 +1,4 @@
+# Please note this has not been updated for almost a year now!
 # Hypixel Skyblock Collection
 
 
